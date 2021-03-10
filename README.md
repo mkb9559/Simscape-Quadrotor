@@ -1,0 +1,24 @@
+# Simscape-Quadrotor
+This project is a matlab Simulink model for a single quadrotor based on Simscape. (Matlab 2019a)
+
+# Requirement
+ - Your Matlab version should be higher than Matlab 2019a (The author developed this model on Matlab 2019a. Hence, I suggest you use the same version.)
+
+
+# Preview
+You may view the simulation results in "demo.gif".
+
+# Contains
+
+ - A physical quadrotor simulink model imported from SolidWorks.
+ - A simple backsteeping based position control and attitude control for quadrotor position tracking.
+ 
+
+# Documentation
+Sorry, there are only some documents in Chinese.
+
+https://blog.csdn.net/mkb9559/article/details/107225711
+
+https://blog.csdn.net/mkb9559/article/details/107314632
+
+https://blog.csdn.net/mkb9559/article/details/107316122
