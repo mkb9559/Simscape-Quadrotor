@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="07/03/20||15:19:47" using="Simscape Multibody Link Version 4.8" from="SolidWorks 26.0.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="quadrotorv3" uid="quadrotorv3" version="215">
+<AssemblyFile name="quadrotorv3.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="armone-4" uid="armone-4" entityUid="armone" rigid="true">
+<Transform>
+<Rotation>0.70710678118654768 2.360795742559576e-016 -0.70710678118654713 -0.70710678118654713 -2.7330280113733357e-016 -0.70710678118654768 -3.6018773185750775e-016 0.99999999999999989 0</Rotation>
+<Translation>0.050759531155744032 0.0095721268069347068 0.0067094968231877928</Translation>
+</Transform>
+<Instance name="arm-1" uid="arm-1" entityUid="arm*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.029123892914515361 0.0082905031768121928 0.42266092446563741</Translation>
+</Transform>
+</Instance>
+<Instance name="rotor2-1" uid="rotor2-1" entityUid="rotor2*:*默认">
+<Transform>
+<Rotation>-4.4408920985006262e-016 -1.2512121798139397e-015 -0.99999999999999978 0 0.99999999999999989 -1.2512121798139395e-015 0.99999999999999989 0 -4.4408920985006257e-016</Rotation>
+<Translation>-0.02912389291451542 0.02329050317681219 0.43766092446563731</Translation>
+</Transform>
+</Instance>
+<Instance name="rotor-1" uid="rotor-1" entityUid="rotor*:*默认">
+<Transform>
+<Rotation>-1.1102230246251565e-016 -1.2469746585794279e-015 -1 -1.2105469208655241e-016 1 -1.2469746585794279e-015 1 1.2105469208655226e-016 -1.110223024625158e-016</Rotation>
+<Translation>-0.029123892914515382 -0.0067094968231878067 0.43766092446563742</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="armone-2" uid="armone-2" entityUid="armone" rigid="true">
+<Transform>
+<Rotation>-0.70710678118654802 1.7945348841017563e-015 0.70710678118654713 0.70710678118654713 -1.7920143041822492e-015 0.70710678118654802 2.5360732520947279e-015 1 0</Rotation>
+<Translation>-0.050759531155744018 -0.0095721268069347346 0.0067094968231878743</Translation>
+</Transform>
+<Instance name="arm-1" uid="arm-1" entityUid="arm*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.029123892914515434 0.0082905031768121945 0.42266092446563763</Translation>
+</Transform>
+</Instance>
+<Instance name="rotor2-1" uid="rotor2-1" entityUid="rotor2*:*默认">
+<Transform>
+<Rotation>-4.4408920985006242e-016 -1.2512121798139403e-015 -1 0 1 -1.2512121798139403e-015 1 0 -4.4408920985006242e-016</Rotation>
+<Translation>-0.029123892914515479 0.023290503176812194 0.43766092446563759</Translation>
+</Transform>
+</Instance>
+<Instance name="rotor-1" uid="rotor-1" entityUid="rotor*:*默认">
+<Transform>
+<Rotation>-1.1102230246251597e-016 -1.2469746585794289e-015 -1.0000000000000002 -1.2105469208655118e-016 1 -1.2469746585794277e-015 1.0000000000000002 1.2105469208655327e-016 -1.1102230246251564e-016</Rotation>
+<Translation>-0.029123892914515444 -0.0067094968231878084 0.43766092446563765</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="payload-1" uid="payload-1" entityUid="payload*:*默认">
+<Transform>
+<Rotation>0 0 0.99999999999999978 0.99999999999999989 -6.6637017855911142e-016 0 6.6637017855911152e-016 0.99999999999999989 0</Rotation>
+<Translation>0 0 -0.070000000000000132</Translation>
+</Transform>
+</Instance>
+<Instance name="body-1" uid="body-1" entityUid="body*:*默认">
+<Transform>
+<Rotation>1 0 0 0 0 -0.99999999999999989 0 0.99999999999999967 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="armone-1" uid="armone-1" entityUid="armone" rigid="true">
+<Transform>
+<Rotation>0.70710678118654713 3.9019939263133402e-016 0.70710678118654779 0.70710678118654779 3.7588985482332337e-016 -0.70710678118654713 -5.4170690186928731e-016 1 0</Rotation>
+<Translation>-0.0095721268069347346 0.050759531155744032 0.0067094968231877841</Translation>
+</Transform>
+<Instance name="arm-1" uid="arm-1" entityUid="arm*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.029123892914515368 0.0082905031768121945 0.42266092446563747</Translation>
+</Transform>
+</Instance>
+<Instance name="rotor2-1" uid="rotor2-1" entityUid="rotor2*:*默认">
+<Transform>
+<Rotation>-4.4408920985006262e-016 -1.2512121798139399e-015 -0.99999999999999978 0 1.0000000000000002 -1.2512121798139405e-015 1 0 -4.4408920985006262e-016</Rotation>
+<Translation>-0.029123892914515434 0.023290503176812194 0.43766092446563742</Translation>
+</Transform>
+</Instance>
+<Instance name="rotor-1" uid="rotor-1" entityUid="rotor*:*默认">
+<Transform>
+<Rotation>-1.6653345369377341e-016 -1.2469746585794281e-015 -0.99999999999999978 -1.2105469208655253e-016 1 -1.2469746585794281e-015 0.99999999999999978 1.2105469208655214e-016 -1.6653345369377348e-016</Rotation>
+<Translation>-0.029123892914515389 -0.0067094968231878084 0.43766092446563742</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="armone-3" uid="armone-3" entityUid="armone" rigid="true">
+<Transform>
+<Rotation>-0.70710678118654724 9.9068157768393344e-016 -0.70710678118654791 -0.70710678118654791 9.9359783979344585e-016 0.70710678118654724 1.4030974318671485e-015 1 0</Rotation>
+<Translation>0.0095721268069346929 -0.05075953115574406 0.006709496823187844</Translation>
+</Transform>
+<Instance name="arm-1" uid="arm-1" entityUid="arm*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.029123892914515441 0.0082905031768121928 0.42266092446563763</Translation>
+</Transform>
+</Instance>
+<Instance name="rotor2-1" uid="rotor2-1" entityUid="rotor2*:*默认">
+<Transform>
+<Rotation>-4.9960036108132044e-016 -1.2512121798139389e-015 -1.0000000000000002 0 1 -1.2512121798139401e-015 1.0000000000000002 0 -4.9960036108132044e-016</Rotation>
+<Translation>-0.029123892914515448 0.023290503176812194 0.43766092446563765</Translation>
+</Transform>
+</Instance>
+<Instance name="rotor-1" uid="rotor-1" entityUid="rotor*:*默认">
+<Transform>
+<Rotation>-1.1102230246251583e-016 -1.2469746585794269e-015 -1 -1.2105469208655263e-016 1 -1.2469746585794293e-015 1 1.2105469208655209e-016 -1.1102230246251565e-016</Rotation>
+<Translation>-0.029123892914515434 -0.0067094968231878084 0.43766092446563765</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="propeller-1" uid="propeller-1" entityUid="propeller*:*默认">
+<Transform>
+<Rotation>0.70710678118654779 -2.4394416776998125e-016 -0.70710678118654735 -0.70710678118654735 -4.0904439632771989e-016 -0.70710678118654779 -1.1674349118862543e-016 1 -4.61732641710751e-016</Rotation>
+<Translation>0.27930717856868631 -0.27930717856868609 0.070000000000000007</Translation>
+</Transform>
+</Instance>
+<Instance name="propeller-4" uid="propeller-4" entityUid="propeller*:*默认">
+<Transform>
+<Rotation>-0.70710678118654724 -7.3207842402131544e-016 -0.70710678118654791 -0.70710678118654791 6.9848120760357413e-016 0.70710678118654735 0 1 -1.1003141751019981e-015</Rotation>
+<Translation>-0.27930717856868609 -0.27930717856868664 0.069999999999999979</Translation>
+</Transform>
+</Instance>
+<Instance name="propeller-2" uid="propeller-2" entityUid="propeller*:*默认">
+<Transform>
+<Rotation>-0.70710678118654735 2.3906184614106179e-015 -0.70710678118654757 -0.70710678118654757 -2.8696506106636698e-015 0.70710678118654735 -3.3872688114320002e-016 1 3.7195719317295959e-015</Rotation>
+<Translation>0.27930717856868642 0.2793071785686862 0.069999999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="propeller-3" uid="propeller-3" entityUid="propeller*:*默认">
+<Transform>
+<Rotation>0.70710678118654779 1.9208933880666121e-015 -0.70710678118654724 -0.70710678118654724 1.6298220117276134e-015 -0.70710678118654779 -2.0581854401860943e-016 1 2.5107349372579995e-015</Rotation>
+<Translation>-0.27930717856868631 0.27930717856868631 0.069999999999999993</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="重合1">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>payload-1</Uid>
+</InstancePath>
+<Position>0 0.069999999999999979 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合2">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.050000000000000003 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>payload-1</Uid>
+</InstancePath>
+<Position>0 0.069999999999999979 -0.049999999999999968</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -0.99999999999999967 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>payload-1</Uid>
+</InstancePath>
+<Position>0 0.069999999999999979 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="平行5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0 0.029999999999999978 0</Position>
+<Axis>0 0.99999999999999967 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>quadrotorv3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="平行6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.080000000000000071 0.029999999999999978 0.033137084989847583</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>quadrotorv3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="重合20">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>quadrotorv3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合5">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.056568542494923844 0.014999999999999989 0.056568542494923803</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>armone-1</Uid>
+<Uid>arm-1</Uid>
+</InstancePath>
+<Position>0 0 -0.29999999999999993</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合6">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.056568542494923851 0.029999999999999978 0.056568542494923796</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>armone-1</Uid>
+<Uid>arm-1</Uid>
+</InstancePath>
+<Position>0 0.014999999999999998 -0.29999999999999993</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.033137084989847645 0.029999999999999978 0.080000000000000016</Position>
+<Axis>0.70710678118654779 0 0.70710678118654724</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>armone-1</Uid>
+<Uid>arm-1</Uid>
+</InstancePath>
+<Position>0 0 -0.29999999999999993</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合8">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.056568542494923803 0.014999999999999989 -0.056568542494923851</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>armone-2</Uid>
+<Uid>arm-1</Uid>
+</InstancePath>
+<Position>0 0 -0.30000000000000004</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合9">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.056568542494923831 0.029999999999999978 -0.056568542494923824</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>armone-2</Uid>
+<Uid>arm-1</Uid>
+</InstancePath>
+<Position>0 0.014999999999999998 -0.30000000000000004</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.080000000000000071 0.029999999999999978 -0.033137084989847597</Position>
+<Axis>0.70710678118654724 0 -0.70710678118654779</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>armone-2</Uid>
+<Uid>arm-1</Uid>
+</InstancePath>
+<Position>0 0 -0.30000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合11">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.056568542494923865 0.014999999999999989 -0.056568542494923796</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>armone-3</Uid>
+<Uid>arm-1</Uid>
+</InstancePath>
+<Position>0 0 -0.30000000000000004</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合12">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.056568542494923851 0.029999999999999978 -0.05656854249492381</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>armone-3</Uid>
+<Uid>arm-1</Uid>
+</InstancePath>
+<Position>0 0.014999999999999999 -0.30000000000000004</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.033137084989847645 0.029999999999999978 -0.080000000000000016</Position>
+<Axis>-0.70710678118654791 0 -0.70710678118654713</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>armone-3</Uid>
+<Uid>arm-1</Uid>
+</InstancePath>
+<Position>0 0 -0.30000000000000004</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合17">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.056568542494923817 0.014999999999999989 0.056568542494923831</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>armone-4</Uid>
+<Uid>arm-1</Uid>
+</InstancePath>
+<Position>0 0 -0.29999999999999988</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合18">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.056568542494923817 0.029999999999999978 0.056568542494923831</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>armone-4</Uid>
+<Uid>arm-1</Uid>
+</InstancePath>
+<Position>0 0.014999999999999998 -0.29999999999999988</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.080000000000000043 0.029999999999999978 0.033137084989847625</Position>
+<Axis>-0.70710678118654746 0 0.70710678118654757</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>armone-4</Uid>
+<Uid>arm-1</Uid>
+</InstancePath>
+<Position>0 0 -0.29999999999999988</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合21">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>armone-1</Uid>
+<Uid>rotor2-1</Uid>
+</InstancePath>
+<Position>0 0.040000000000000022 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>propeller-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="平行7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>armone-1</Uid>
+<Uid>rotor2-1</Uid>
+</InstancePath>
+<Position>0 0.040000000000000022 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>propeller-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="重合22">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>armone-2</Uid>
+<Uid>rotor2-1</Uid>
+</InstancePath>
+<Position>0 0.040000000000000008 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>propeller-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="平行9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>armone-2</Uid>
+<Uid>rotor2-1</Uid>
+</InstancePath>
+<Position>0 0.040000000000000008 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>propeller-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="重合23">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>armone-3</Uid>
+<Uid>rotor2-1</Uid>
+</InstancePath>
+<Position>0 0.039999999999999994 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>propeller-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="平行11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>armone-3</Uid>
+<Uid>rotor2-1</Uid>
+</InstancePath>
+<Position>0 0.039999999999999994 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>propeller-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="重合24">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>armone-4</Uid>
+<Uid>rotor2-1</Uid>
+</InstancePath>
+<Position>0 0.039999999999999994 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>propeller-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>armone-4</Uid>
+<Uid>rotor2-1</Uid>
+</InstancePath>
+<Position>0 0.039999999999999994 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>propeller-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="armone" uid="armone" version="155">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="armone.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="arm" uid="arm*:*默认" version="211">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="arm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.11727958074932388</Mass>
+<CenterOfMass>0 0 -0.14999999999999991</CenterOfMass>
+<Inertia>0.00089077506566009814 0.00089077506566009814 2.2356420080339872e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="arm_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="body" uid="body*:*默认" version="294">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.45501034644998789</Mass>
+<CenterOfMass>0 0.011172781363369725 0</CenterOfMass>
+<Inertia>0.0011336765653189851 0.002189212212336178 0.0011336765653189855 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="body_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="payload" uid="payload*:*默认" version="189">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="payload.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.31403500000000029</Mass>
+<CenterOfMass>0 0.027413544668587905 0</CenterOfMass>
+<Inertia>0.00057038710065441926 0.00082516391666666734 0.00057038710065441937 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="payload_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="propeller" uid="propeller*:*默认" version="171">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="propeller.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.02896</Mass>
+<CenterOfMass>0 0.001 0</CenterOfMass>
+<Inertia>9.7498666666666692e-007 0.00038709866666666669 0.00038614298666666668 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="propeller_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="rotor" uid="rotor*:*默认" version="187">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="rotor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.072900000000000006</Mass>
+<CenterOfMass>0 0.014999999999999999 0</CenterOfMass>
+<Inertia>1.0934999999999999e-005 1.0935000000000001e-005 1.0934999999999999e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="rotor_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="rotor2" uid="rotor2*:*默认" version="175">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="rotor2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.023326325452904202</Mass>
+<CenterOfMass>0 0.019999999999999993 0</CenterOfMass>
+<Inertia>5.3334671217838268e-006 4.4465807894598648e-006 5.333467121783826e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="rotor2_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
