@@ -7,6 +7,7 @@ This project is a matlab Simulink model for a single quadrotor based on Simscape
 
 # Preview
 You may view the simulation results in "demo.gif".
+Video: https://www.bilibili.com/video/BV1fK4y1G7jF
 
 # Contains
 
