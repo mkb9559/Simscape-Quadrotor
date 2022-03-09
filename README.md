@@ -3,7 +3,7 @@ This project is a matlab Simulink model for a single quadrotor based on Simscape
 
 
 # Requirement
- - Your Matlab version should be higher than Matlab 2019a (The author developed this model on Matlab 2019a. Hence, I suggest you use the same version.)
+ - Your Matlab version should be Matlab 2019a or higher. (The author developed this model on Matlab 2019a. Hence, I suggest you use the same version.)
 
 
 # Preview
@@ -18,7 +18,7 @@ Video: https://www.bilibili.com/video/BV1fK4y1G7jF
  
 
 # Documentation
-Sorry, there are only some documents in Chinese.
+There are only some documents in Chinese.
 
 https://blog.csdn.net/mkb9559/article/details/107225711
 
